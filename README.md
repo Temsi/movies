@@ -29,6 +29,10 @@ http://127.0.0.1:8000/api/v1
 >returns the info for the order ID specified in the url
 >
 
+>GET    /order/{orderId}/movie
+>
+>returns the movies in that order
+
 >GET    /movie/{movieId}
 > 
 >returns the info for the movie ID specified in the url
@@ -37,3 +41,4 @@ http://127.0.0.1:8000/api/v1
 >GET    /movie/{movieId}/order
 > 
 >returns the orders for the movie ID specified in the url
+
